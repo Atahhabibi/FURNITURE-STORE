@@ -7,21 +7,21 @@ import Hero from "./Hero";
 import ErrorElement from "./ErrorElement";
 import ProductGrid from "./ProductGrid";
 import SectionTitle from "./SectionTitle";
-import FeaturedProducts from './FeaturedProducts';
-import PaginationContainer from './PaginationContainer';
-import ProductsContainer from './ProductsContainer';
-import Filters from './Filters';
-import ProductList from './ProductList';
-import FormSelect from './FormSelect';
-import FormRange from './FormRange';
-import FormCheckbox from './FormCheckbox';
-import Loading from './Loading';
-import CartItem from './CartItem';
-import CartItemsList from './CartItemsList';
-import CartTotals from './cartTotals';
-import CheckoutForm from './CheckoutForm';
-import OrdersList from './OrdersList';
-import ComplexPaginationContainer from './ComplexPaginationContainer';
+import FeaturedProducts from "./FeaturedProducts";
+import PaginationContainer from "./PaginationContainer";
+import ProductsContainer from "./ProductsContainer";
+import Filters from "./Filters";
+import ProductList from "./ProductList";
+import FormSelect from "./FormSelect";
+import FormRange from "./FormRange";
+import FormCheckbox from "./FormCheckbox";
+import Loading from "./Loading";
+import CartItem from "./CartItem";
+import CartItemsList from "./CartItemsList";
+import CartTotals from "./CartTotals";
+import CheckoutForm from "./CheckoutForm";
+import OrdersList from "./OrdersList";
+import ComplexPaginationContainer from "./ComplexPaginationContainer";
 
 export {
   FormInput,
@@ -48,5 +48,4 @@ export {
   CheckoutForm,
   OrdersList,
   ComplexPaginationContainer
-  
 };
