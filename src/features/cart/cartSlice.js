@@ -11,8 +11,12 @@ const defaultState = {
 };
 
 const getCartLFromLocalStorage = () => {
-  return JSON.parse(localStorage.getItem("cart") || defaultState);
+  return JSON.parse(localStorage.getItem("cart")) || defaultState;
 };
+
+console.log(localStorage.getItem("cart"));
+
+
 
 const cartSlice = createSlice({
   name: "cart",
