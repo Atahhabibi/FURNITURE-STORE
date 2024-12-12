@@ -26,7 +26,7 @@ const Navbar = () => {
             to="/"
             className="hidden lg:flex btn btn-primary text-3xl items-center capitalize"
           >
-            c
+            H
           </NavLink>
 
           <div className="dropdown">
@@ -52,7 +52,7 @@ const Navbar = () => {
             <BsSunFill className="swap-off h-4 w-4" />
           </label>
 
-          <NavLink className="btn btn-ghost btn-circle btn-md ml-4">
+          <NavLink className="btn btn-ghost btn-circle btn-md ml-4" to='/cart'>
             <div className="indicator">
               <BsCart3 className="h-6 w-6" />
               <span className="badge badge-sm badge-primary indicator-item">
